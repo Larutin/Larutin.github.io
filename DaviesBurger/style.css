@@ -51,12 +51,15 @@ body {
   /* Content Header */
   
   .header {
+    height: 320px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
     background-position: center;
     background-size: cover;
   }
   
   .header h1 {
+    padding: 20px;
+    margin: 0 auto;
     background-color: #05A8AA;
     color: #FFF;
     font-family: 'Oswald', sans-serif;
@@ -84,6 +87,10 @@ body {
   /* Content Button */
   
   .button {
+    width: 200px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid blue;
     border-radius: 4px;
     color: #05A8AA;
     display: block;
@@ -98,11 +105,15 @@ body {
   
   /* Content Nutrition */
   
-  /*ul.nutrition {
+  ul.nutrition {
+    padding: 20px;
 
-  }*/
+  }
   
   ul.nutrition li {
+    width: 200px;
+    margin: 10px 20px;
+    margin-bottom: 3px;
     display: inline-block;
     background-color: #05A8AA;
     list-style: none;
