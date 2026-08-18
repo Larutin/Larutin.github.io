@@ -26,12 +26,13 @@ body {
   
   nav span {
     height: 10px;
-    width: 0;
+    width: 100%;
     margin: 10px 0px;
     display: block;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
+    text-align: center;
   }
   
   nav a {
