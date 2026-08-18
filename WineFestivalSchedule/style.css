@@ -14,6 +14,7 @@ h1 {
   padding: 15px;
   color: #8c6b48;
   background-color: white;
+  margin: 0;
 }
 
 h2 {
@@ -31,6 +32,11 @@ h3 {
   font-weight: 500;
   line-height: 2.7;
   letter-spacing: 0.8px;
+}
+
+table h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 th {
@@ -65,7 +71,6 @@ footer h3 {
 .container {
   max-width: 940px;
   margin: 0 auto;
-  height: 800px;
 }
 
 
