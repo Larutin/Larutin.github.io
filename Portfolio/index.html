@@ -1,94 +1,697 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Developer Portfolio Template</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <!-- Header: keep the name, title, and navigation easy to edit -->
-    <header class="site-header">
-      <div>
-        <p class="eyebrow">Student Developer Portfolio</p>
-        <h1>Your Name</h1>
-        <p class="tagline">
-          A simple black-and-white template for a student developer portfolio.
-        </p>
-      </div>
 
-      <!-- Navigation: each link opens a separate page in this mini-site -->
-      <nav class="nav-links" aria-label="Primary">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="pages/about.html">About Me</a>
-        <a href="pages/achievements.html">Achievements</a>
-        <a href="pages/activities.html">Activities</a>
-        <a href="pages/projects.html">Projects</a>
-        <a href="pages/skills.html">Skills</a>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Name | Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a href="#home" class="logo">
+            YOUR NAME
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#activities">Activities</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
     </header>
 
+
     <main>
-      <!-- Hero: use this space for a short introduction and goal -->
-      <section class="hero card">
-        <div class="section-heading">
-          <p class="section-label">Home</p>
-          <h2>Welcome to your portfolio</h2>
-        </div>
-        <p>
-          Replace the sample text with a short introduction about yourself, what
-          you are studying, and the type of developer you want to become.
-        </p>
-        <div class="hero-links">
-          <a href="pages/about.html">View About Me</a>
-          <a href="pages/projects.html">View Projects</a>
-        </div>
-      </section>
 
-      <!-- Overview cards: these give the site structure at a glance -->
-      <section class="card-grid">
-        <article class="card">
-          <p class="card-label">About Me</p>
-          <h2>Who you are</h2>
-          <p>
-            Write a few lines about your course, interests, and personal goals.
-          </p>
-        </article>
+        <!-- HERO -->
 
-        <article class="card">
-          <p class="card-label">Achievements</p>
-          <h2>What you have accomplished</h2>
-          <p>
-            Add awards, certificates, honors, or school milestones you are proud
-            of.
-          </p>
-        </article>
+        <section class="hero" id="home">
 
-        <article class="card">
-          <p class="card-label">Activities</p>
-          <h2>What you join</h2>
-          <p>
-            Include clubs, events, volunteer work, or workshops that shaped your
-            growth.
-          </p>
-        </article>
+            <div class="hero-text">
 
-        <article class="card">
-          <p class="card-label">Projects</p>
-          <h2>What you build</h2>
-          <p>
-            Show class activities, practice projects, and personal experiments.
-          </p>
-        </article>
-      </section>
+                <p class="eyebrow">
+                    BSIT STUDENT
+                </p>
+
+                <h1>
+                    Hi, I'm
+                    <span>Your Name.</span>
+                </h1>
+
+                <h2>
+                    Student Developer
+                </h2>
+
+                <p class="hero-description">
+                    I'm an Information Technology student interested in
+                    programming, web development, and creating useful
+                    digital experiences.
+                </p>
+
+                <div class="hero-links">
+
+                    <a href="#about" class="primary-button">
+                        About Me
+                    </a>
+
+                    <a href="#projects" class="secondary-button">
+                        View My Work
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="profile-placeholder">
+                    <span>Your Photo</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about-section" id="about">
+
+            <div class="section-container">
+
+                <div class="about-grid">
+
+                    <div class="about-card">
+
+                        <p class="eyebrow">
+                            ABOUT ME
+                        </p>
+
+                        <h2>
+                            A student developer focused on
+                            learning, building, and improving.
+                        </h2>
+
+                        <p>
+                            I'm currently studying Bachelor of Science
+                            in Information Technology and developing my
+                            skills through school projects, programming
+                            activities, and personal projects.
+                        </p>
+
+                        <p>
+                            I enjoy turning ideas into working projects
+                            and learning through hands-on experience.
+                            Every project gives me an opportunity to
+                            improve my problem-solving skills and learn
+                            something new.
+                        </p>
+
+                        <p>
+                            I'm still growing as a developer, but I enjoy
+                            experimenting, making mistakes, and finding
+                            better ways to build things.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-side">
+
+                        <div class="profile-card">
+
+                            <img
+                                src="images/profile.jpg"
+                                alt="Profile Picture"
+                                class="profile-image"
+                            >
+
+                        </div>
+
+
+                        <div class="about-mini-card">
+
+                            <p class="mini-label">
+                                CURRENT FOCUS
+                            </p>
+
+                            <h3>
+                                Learning. Building. Improving.
+                            </h3>
+
+                            <p>
+                                Exploring programming, web development,
+                                UI/UX, databases, and software development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section class="skills-section" id="skills">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        MY SKILLS
+                    </p>
+
+                    <h2>
+                        Technologies and tools
+                        I'm learning.
+                    </h2>
+
+                    <p class="section-intro">
+                        These are some of the technologies and concepts
+                        I have worked with throughout my studies.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            01
+                        </span>
+
+                        <h3>
+                            HTML
+                        </h3>
+
+                        <p>
+                            Building the structure and content
+                            of websites.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            02
+                        </span>
+
+                        <h3>
+                            CSS
+                        </h3>
+
+                        <p>
+                            Designing layouts, styling elements,
+                            and creating responsive pages.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Java
+                        </h3>
+
+                        <p>
+                            Developing applications and practicing
+                            object-oriented programming.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            04
+                        </span>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Learning how to add interaction and
+                            functionality to websites.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            05
+                        </span>
+
+                        <h3>
+                            MySQL
+                        </h3>
+
+                        <p>
+                            Working with databases and practicing
+                            SQL queries.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <span class="skill-number">
+                            06
+                        </span>
+
+                        <h3>
+                            Git & GitHub
+                        </h3>
+
+                        <p>
+                            Managing, storing, and sharing programming
+                            projects.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section class="projects-section" id="projects">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        MY WORK
+                    </p>
+
+                    <h2>
+                        Featured Projects
+                    </h2>
+
+                    <p class="section-intro">
+                        Some of the projects I've worked on while
+                        developing my programming and design skills.
+                    </p>
+
+                </div>
+
+
+                <div class="project-grid">
+
+
+                    <article class="project-card">
+
+                        <div class="project-preview project-one">
+                            <span>PROJECT 01</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-type">
+                                JAVA
+                            </p>
+
+                            <h3>
+                                Grade Computation System
+                            </h3>
+
+                            <p>
+                                A Java-based system for managing
+                                students, subjects, grades, and
+                                academic records.
+                            </p>
+
+                            <a href="pages/projects.html">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-preview project-two">
+                            <span>PROJECT 02</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-type">
+                                UI / UX
+                            </p>
+
+                            <h3>
+                                Agrisense
+                            </h3>
+
+                            <p>
+                                A smart farming application prototype
+                                focused on user-centered design.
+                            </p>
+
+                            <a href="pages/projects.html">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-preview project-three">
+                            <span>PROJECT 03</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-type">
+                                WEB DEVELOPMENT
+                            </p>
+
+                            <h3>
+                                Personal Portfolio
+                            </h3>
+
+                            <p>
+                                A personal portfolio website created
+                                using HTML and CSS.
+                            </p>
+
+                            <a href="pages/projects.html">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACTIVITIES -->
+
+        <section class="activities-section" id="activities">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        ACTIVITIES
+                    </p>
+
+                    <h2>
+                        Things I've been involved in.
+                    </h2>
+
+                    <p class="section-intro">
+                        Some of the activities and projects that
+                        have been part of my student journey.
+                    </p>
+
+                </div>
+
+
+                <div class="activity-grid">
+
+
+                    <!-- 01 FASHION BLOG -->
+
+                    <a
+                        href="../FashionBlog/index.html"
+                        class="activity-card">
+
+                        <span class="activity-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Fashion Blog
+                        </h3>
+
+                        <p>
+                            A webpage activity focused on layout,
+                            content structure, and CSS styling.
+                        </p>
+
+                        <span class="activity-link">
+                            Open Activity →
+                        </span>
+
+                    </a>
+
+
+                    <!-- 02 WINE FESTIVAL -->
+
+                    <a
+                        href="../WineFestivalSchedule/index.html"
+                        class="activity-card">
+
+                        <span class="activity-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Wine Festival Schedule
+                        </h3>
+
+                        <p>
+                            An HTML and CSS activity focused on
+                            creating a structured event schedule.
+                        </p>
+
+                        <span class="activity-link">
+                            Open Activity →
+                        </span>
+
+                    </a>
+
+
+                    <!-- 03 DAVIES BURGER -->
+
+                    <a
+                        href="../DaviesBurger/index.html"
+                        class="activity-card">
+
+                        <span class="activity-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Davies Burger
+                        </h3>
+
+                        <p>
+                            A web development activity focused on
+                            creating and styling a restaurant webpage.
+                        </p>
+
+                        <span class="activity-link">
+                            Open Activity →
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENTS -->
+
+        <section class="achievements-section" id="achievements">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        ACHIEVEMENTS
+                    </p>
+
+                    <h2>
+                        Milestones along the way.
+                    </h2>
+
+                    <p class="section-intro">
+                        Accomplishments, experiences, and milestones
+                        that are part of my journey as a student.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement-grid">
+
+                    <article class="achievement-card">
+
+                        <span class="achievement-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Academic Milestones
+                        </h3>
+
+                        <p>
+                            Academic accomplishments and milestones
+                            achieved throughout my studies.
+                        </p>
+
+                    </article>
+
+
+                    <article class="achievement-card">
+
+                        <span class="achievement-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Certificates
+                        </h3>
+
+                        <p>
+                            Certificates, recognition, and other
+                            accomplishments earned along the way.
+                        </p>
+
+                    </article>
+
+
+                    <article class="achievement-card">
+
+                        <span class="achievement-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Personal Achievements
+                        </h3>
+
+                        <p>
+                            Experiences and accomplishments outside
+                            the classroom that are meaningful to me.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="section-container contact-container">
+
+                <p class="eyebrow">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Want to get in touch?
+                </h2>
+
+                <p>
+                    Feel free to reach out through email or
+                    connect with me on GitHub.
+                </p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:your@email.com">
+                        Email
+                    </a>
+
+                    <a
+                        href="https://github.com/YourUsername"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <!-- Footer: keep this short and easy to replace -->
+
+    <!-- FOOTER -->
+
     <footer class="site-footer">
-      <p>
-        Student template for learning basic HTML and CSS. Modify every section
-        to make it your own.
-      </p>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                YOUR NAME
+            </div>
+
+            <p>
+                Student Developer
+            </p>
+
+            <p>
+                © 2026 Your Name
+            </p>
+
+        </div>
+
     </footer>
-  </body>
+
+</body>
+
 </html>
