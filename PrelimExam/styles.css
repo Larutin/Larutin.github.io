@@ -4,6 +4,7 @@
   --secondary-color: #F59B14;
   --highlight-text: #F2C94C;
   --text-color: #1f1e1e;
+  --pastel-cream-text-color: #FBE28D;
   --background-color:#121212;
   --font-family: 'Arial';
   --logo: #fff;
@@ -115,7 +116,7 @@ body{
 .card-title {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: var(--highlight-text);
+  color: var(--pastel-cream-text-color);
 
 }
 
@@ -128,7 +129,24 @@ body{
   padding: 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
-  color:#fff;
+  color: var(--logo);
 }
 
+.table-section {
+  padding: 50px 20px;
+  background-color: var(--background-color);
+  color: #fff;
+}
 
+thead {
+  background-color: var(--text-color);
+  color: var(--pastel-cream-text-color);
+}
+
+tbody {
+   background-color: var(--text-color);
+  color: var(--logo);
+}
+ .bold-text {
+  color: var(--pastel-cream-text-color);
+}
