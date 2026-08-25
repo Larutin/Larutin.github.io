@@ -6,6 +6,7 @@
    ========================================== */
 
 :root {
+
     --background: #120910;
     --background-two: #1b0d18;
 
@@ -97,8 +98,8 @@ a {
    ========================================== */
 
 .site-header {
-    width: 94%;
 
+    width: 94%;
     max-width: 1400px;
 
     margin: 20px auto 0;
@@ -125,6 +126,7 @@ a {
 
 
 .logo {
+
     font-size: 1rem;
 
     font-weight: 700;
@@ -144,6 +146,7 @@ a {
 
 
 .nav-links {
+
     display: flex;
 
     flex-wrap: wrap;
@@ -157,6 +160,7 @@ a {
 
 
 .nav-links a {
+
     color: var(--muted);
 
     font-size: 0.88rem;
@@ -166,6 +170,7 @@ a {
 
 
 .nav-links a:hover {
+
     color: var(--text);
 }
 
@@ -175,6 +180,7 @@ a {
    ========================================== */
 
 .section-container {
+
     width: 90%;
 
     max-width: 1200px;
@@ -184,6 +190,7 @@ a {
 
 
 .eyebrow {
+
     display: inline-block;
 
     color: var(--accent);
@@ -199,6 +206,7 @@ a {
 
 
 .section-heading h2 {
+
     margin-top: 10px;
 
     font-size: clamp(2.3rem, 5vw, 3.2rem);
@@ -208,6 +216,7 @@ a {
 
 
 .section-intro {
+
     max-width: 700px;
 
     margin-top: 15px;
@@ -223,6 +232,7 @@ a {
    ========================================== */
 
 .hero {
+
     width: 100%;
 
     min-height: 650px;
@@ -255,6 +265,7 @@ a {
 
 
 .hero::before {
+
     content: "";
 
     position: absolute;
@@ -275,6 +286,7 @@ a {
 
 
 .hero::after {
+
     content: "";
 
     position: absolute;
@@ -295,6 +307,7 @@ a {
 
 
 .hero-text {
+
     position: relative;
 
     z-index: 1;
@@ -302,6 +315,7 @@ a {
 
 
 .hero-text h1 {
+
     margin-top: 20px;
 
     font-size: clamp(55px, 8vw, 95px);
@@ -313,6 +327,7 @@ a {
 
 
 .hero-text h1 span {
+
     display: inline-block;
 
     background:
@@ -323,6 +338,7 @@ a {
         );
 
     -webkit-background-clip: text;
+
     background-clip: text;
 
     color: transparent;
@@ -330,6 +346,7 @@ a {
 
 
 .hero-text h2 {
+
     margin-top: 22px;
 
     font-size: 1.45rem;
@@ -339,6 +356,7 @@ a {
 
 
 .hero-description {
+
     max-width: 620px;
 
     margin-top: 20px;
@@ -350,6 +368,7 @@ a {
 
 
 .hero-links {
+
     display: flex;
 
     flex-wrap: wrap;
@@ -362,6 +381,7 @@ a {
 
 .primary-button,
 .secondary-button {
+
     display: inline-block;
 
     padding: 13px 22px;
@@ -377,6 +397,7 @@ a {
 
 
 .primary-button {
+
     background:
         linear-gradient(
             135deg,
@@ -389,6 +410,7 @@ a {
 
 
 .secondary-button {
+
     background:
         rgba(255, 255, 255, 0.05);
 
@@ -400,6 +422,7 @@ a {
 
 .primary-button:hover,
 .secondary-button:hover {
+
     transform: translateY(-3px);
 }
 
@@ -409,6 +432,7 @@ a {
    ========================================== */
 
 .hero-image {
+
     display: flex;
 
     justify-content: flex-end;
@@ -424,8 +448,10 @@ a {
 
 
 .profile-placeholder {
+
     width: 330px;
-    height: 390px;
+
+    height: 330px;
 
     display: flex;
 
@@ -455,15 +481,30 @@ a {
 }
 
 
+.profile-placeholder img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
 .profile-placeholder::before {
+
     content: "";
 
     position: absolute;
 
     width: 120px;
+
     height: 120px;
 
     right: 20px;
+
     top: 20px;
 
     border-radius: 50%;
@@ -472,18 +513,23 @@ a {
         rgba(255, 111, 174, 0.12);
 
     filter: blur(15px);
+
+    pointer-events: none;
 }
 
 
 .profile-placeholder::after {
+
     content: "";
 
     position: absolute;
 
     width: 100px;
+
     height: 100px;
 
     left: 20px;
+
     bottom: 20px;
 
     border-radius: 50%;
@@ -492,17 +538,8 @@ a {
         rgba(181, 124, 255, 0.13);
 
     filter: blur(15px);
-}
 
-
-.profile-placeholder span {
-    position: relative;
-
-    z-index: 2;
-
-    color: var(--muted);
-
-    font-size: 0.9rem;
+    pointer-events: none;
 }
 
 
@@ -511,6 +548,7 @@ a {
    ========================================== */
 
 .about-section {
+
     width: 100%;
 
     padding: 70px 0;
@@ -520,6 +558,7 @@ a {
 
 
 .about-card {
+
     width: 100%;
 
     max-width: 900px;
@@ -541,6 +580,7 @@ a {
 
 
 .about-card h2 {
+
     max-width: 750px;
 
     margin-top: 12px;
@@ -552,6 +592,7 @@ a {
 
 
 .about-card p:not(.eyebrow) {
+
     max-width: 750px;
 
     margin-top: 14px;
@@ -566,10 +607,10 @@ a {
 
 /* ==========================================
    SKILLS
-   DISPLAY ONLY
    ========================================== */
 
 .skills-section {
+
     width: 100%;
 
     padding: 110px 0;
@@ -582,6 +623,7 @@ a {
 
 
 .skills-grid {
+
     display: grid;
 
     grid-template-columns:
@@ -594,6 +636,7 @@ a {
 
 
 .skill-card {
+
     padding: 30px;
 
     border: 1px solid var(--border);
@@ -613,6 +656,7 @@ a {
 
 
 .skill-card:hover {
+
     transform: none;
 
     background: var(--card);
@@ -624,6 +668,7 @@ a {
 
 
 .skill-number {
+
     color: var(--accent);
 
     font-size: 0.7rem;
@@ -635,6 +680,7 @@ a {
 
 
 .skill-card h3 {
+
     margin-top: 18px;
 
     font-size: 1.3rem;
@@ -642,6 +688,7 @@ a {
 
 
 .skill-card p {
+
     margin-top: 10px;
 
     color: var(--muted);
@@ -655,6 +702,7 @@ a {
    ========================================== */
 
 .projects-section {
+
     width: 100%;
 
     padding: 110px 0;
@@ -664,6 +712,7 @@ a {
 
 
 .project-grid {
+
     display: grid;
 
     grid-template-columns:
@@ -676,6 +725,7 @@ a {
 
 
 .project-card {
+
     overflow: hidden;
 
     border: 1px solid var(--border);
@@ -698,6 +748,7 @@ a {
 
 
 .project-card:hover {
+
     transform: translateY(-8px);
 
     background: var(--card-hover);
@@ -707,61 +758,14 @@ a {
 }
 
 
-.project-preview {
-    height: 190px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    color: var(--accent);
-
-    font-size: 0.72rem;
-
-    font-weight: 700;
-
-    letter-spacing: 0.15em;
-}
-
-
-.project-one {
-    background:
-        linear-gradient(
-            135deg,
-            rgba(255, 111, 174, 0.14),
-            rgba(181, 124, 255, 0.12)
-        );
-}
-
-
-.project-two {
-    background:
-        linear-gradient(
-            135deg,
-            rgba(181, 124, 255, 0.14),
-            rgba(255, 111, 174, 0.10)
-        );
-}
-
-
-.project-three {
-    background:
-        linear-gradient(
-            135deg,
-            rgba(255, 111, 174, 0.10),
-            rgba(181, 124, 255, 0.14)
-        );
-}
-
-
 .project-content {
-    padding: 25px;
+
+    padding: 30px;
 }
 
 
 .project-type {
+
     color: var(--accent);
 
     font-size: 0.68rem;
@@ -773,6 +777,7 @@ a {
 
 
 .project-content h3 {
+
     margin-top: 8px;
 
     font-size: 1.3rem;
@@ -780,6 +785,7 @@ a {
 
 
 .project-content p:not(.project-type) {
+
     margin-top: 12px;
 
     color: var(--muted);
@@ -789,6 +795,7 @@ a {
 
 
 .project-content a {
+
     display: inline-block;
 
     margin-top: 20px;
@@ -798,10 +805,13 @@ a {
     font-size: 0.88rem;
 
     font-weight: 600;
+
+    transition: 0.2s ease;
 }
 
 
 .project-content a:hover {
+
     color: var(--text);
 }
 
@@ -811,6 +821,7 @@ a {
    ========================================== */
 
 .activities-section {
+
     width: 100%;
 
     padding: 110px 0;
@@ -827,6 +838,7 @@ a {
 
 
 .activity-grid {
+
     display: grid;
 
     grid-template-columns:
@@ -839,6 +851,7 @@ a {
 
 
 .activity-card {
+
     padding: 30px;
 
     display: flex;
@@ -865,6 +878,7 @@ a {
 
 
 .activity-card:hover {
+
     transform: translateY(-6px);
 
     background: var(--card-hover);
@@ -875,6 +889,7 @@ a {
 
 
 .activity-number {
+
     color: var(--accent);
 
     font-size: 0.7rem;
@@ -886,6 +901,7 @@ a {
 
 
 .activity-card h3 {
+
     margin-top: 18px;
 
     font-size: 1.3rem;
@@ -893,6 +909,7 @@ a {
 
 
 .activity-card p {
+
     margin-top: 12px;
 
     color: var(--muted);
@@ -902,6 +919,7 @@ a {
 
 
 .activity-link {
+
     margin-top: auto;
 
     padding-top: 22px;
@@ -919,6 +937,7 @@ a {
    ========================================== */
 
 .achievements-section {
+
     width: 100%;
 
     padding: 110px 0;
@@ -928,6 +947,7 @@ a {
 
 
 .achievement-grid {
+
     display: grid;
 
     grid-template-columns:
@@ -940,6 +960,7 @@ a {
 
 
 .achievement-card {
+
     padding: 30px;
 
     border: 1px solid var(--border);
@@ -950,28 +971,29 @@ a {
 
     box-shadow: var(--shadow);
 
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
     transition:
         transform 0.25s ease,
         background 0.25s ease,
         border-color 0.25s ease;
-
-    backdrop-filter: blur(18px);
-
-    -webkit-backdrop-filter: blur(18px);
 }
 
 
 .achievement-card:hover {
-    transform: translateY(-6px);
 
-    background: var(--card-hover);
+    transform: none;
 
-    border-color:
-        rgba(181, 124, 255, 0.45);
+    background: var(--card);
+
+    border-color: var(--border);
 }
 
 
 .achievement-number {
+
     color: var(--accent-two);
 
     font-size: 0.7rem;
@@ -983,6 +1005,7 @@ a {
 
 
 .achievement-card h3 {
+
     margin-top: 18px;
 
     font-size: 1.3rem;
@@ -990,6 +1013,7 @@ a {
 
 
 .achievement-card p {
+
     margin-top: 12px;
 
     color: var(--muted);
@@ -1003,6 +1027,7 @@ a {
    ========================================== */
 
 .contact-section {
+
     width: 100%;
 
     padding: 130px 0;
@@ -1017,11 +1042,13 @@ a {
 
 
 .contact-container {
+
     text-align: center;
 }
 
 
 .contact-container h2 {
+
     margin-top: 15px;
 
     font-size: clamp(2.4rem, 5vw, 3.5rem);
@@ -1031,6 +1058,7 @@ a {
 
 
 .contact-container > p:not(.eyebrow) {
+
     max-width: 650px;
 
     margin: 15px auto 0;
@@ -1040,6 +1068,7 @@ a {
 
 
 .contact-links {
+
     display: flex;
 
     justify-content: center;
@@ -1053,6 +1082,7 @@ a {
 
 
 .contact-links a {
+
     padding: 13px 25px;
 
     border: 1px solid var(--border);
@@ -1069,6 +1099,7 @@ a {
 
 
 .contact-links a:hover {
+
     transform: translateY(-3px);
 
     background:
@@ -1089,6 +1120,7 @@ a {
    ========================================== */
 
 .site-footer {
+
     width: 100%;
 
     padding: 30px 8%;
@@ -1101,6 +1133,7 @@ a {
 
 
 .footer-content {
+
     max-width: 1200px;
 
     margin: 0 auto;
@@ -1114,6 +1147,7 @@ a {
 
 
 .footer-logo {
+
     font-size: 1rem;
 
     font-weight: 700;
@@ -1126,6 +1160,7 @@ a {
         );
 
     -webkit-background-clip: text;
+
     background-clip: text;
 
     color: transparent;
@@ -1133,6 +1168,7 @@ a {
 
 
 .footer-content p {
+
     color: var(--muted);
 
     font-size: 0.8rem;
@@ -1146,6 +1182,7 @@ a {
 @media (max-width: 900px) {
 
     .hero {
+
         grid-template-columns: 1fr;
 
         text-align: center;
@@ -1155,6 +1192,7 @@ a {
 
 
     .hero-description {
+
         margin-left: auto;
 
         margin-right: auto;
@@ -1162,11 +1200,13 @@ a {
 
 
     .hero-links {
+
         justify-content: center;
     }
 
 
     .hero-image {
+
         order: -1;
 
         justify-content: center;
@@ -1176,6 +1216,7 @@ a {
 
 
     .about-card {
+
         max-width: none;
     }
 
@@ -1184,12 +1225,14 @@ a {
     .project-grid,
     .activity-grid,
     .achievement-grid {
+
         grid-template-columns:
             repeat(2, 1fr);
     }
 
 
     .footer-content {
+
         flex-direction: column;
 
         gap: 10px;
@@ -1205,6 +1248,7 @@ a {
 @media (max-width: 600px) {
 
     .site-header {
+
         width: 92%;
 
         padding: 15px 0;
@@ -1216,6 +1260,7 @@ a {
 
 
     .nav-links {
+
         justify-content: center;
 
         gap: 13px;
@@ -1223,11 +1268,13 @@ a {
 
 
     .nav-links a {
+
         font-size: 0.76rem;
     }
 
 
     .hero {
+
         min-height: 520px;
 
         padding: 70px 6%;
@@ -1235,6 +1282,7 @@ a {
 
 
     .hero-text h1 {
+
         font-size: 54px;
 
         letter-spacing: -2px;
@@ -1242,16 +1290,19 @@ a {
 
 
     .hero-text h2 {
+
         font-size: 1.25rem;
     }
 
 
     .hero-description {
+
         font-size: 0.92rem;
     }
 
 
     .hero-links {
+
         flex-direction: column;
 
         align-items: center;
@@ -1260,6 +1311,7 @@ a {
 
     .primary-button,
     .secondary-button {
+
         width: 190px;
 
         text-align: center;
@@ -1267,9 +1319,10 @@ a {
 
 
     .profile-placeholder {
+
         width: 240px;
 
-        height: 290px;
+        height: 240px;
     }
 
 
@@ -1278,16 +1331,19 @@ a {
     .projects-section,
     .activities-section,
     .achievements-section {
+
         padding: 80px 0;
     }
 
 
     .about-card {
+
         padding: 30px;
     }
 
 
     .about-card h2 {
+
         font-size: 2.1rem;
     }
 
@@ -1296,6 +1352,7 @@ a {
     .project-grid,
     .activity-grid,
     .achievement-grid {
+
         grid-template-columns: 1fr;
     }
 
@@ -1303,16 +1360,25 @@ a {
     .skill-card,
     .activity-card,
     .achievement-card {
+
+        padding: 25px;
+    }
+
+
+    .project-content {
+
         padding: 25px;
     }
 
 
     .contact-section {
+
         padding: 90px 0;
     }
 
 
     .contact-links {
+
         flex-direction: column;
 
         align-items: center;
@@ -1320,6 +1386,7 @@ a {
 
 
     .contact-links a {
+
         width: 180px;
 
         text-align: center;
@@ -1327,6 +1394,7 @@ a {
 
 
     .footer-content {
+
         text-align: center;
     }
 
