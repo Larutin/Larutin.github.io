@@ -1,4 +1,3 @@
-```javascript
 function convertMarkdown() {
 
     let markdown = document.getElementById("markdown-input").value;
@@ -62,4 +61,3 @@ function convertMarkdown() {
 document
     .getElementById("markdown-input")
     .addEventListener("input", convertMarkdown);
-```
