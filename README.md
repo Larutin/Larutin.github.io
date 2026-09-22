@@ -6,3 +6,4 @@
 
 # How the website can be accessed?
 - By accessing with this link: https://larutin.github.io/Portfolio/
+- By accessing with this link: https://larutin.github.io/Portfolio/
