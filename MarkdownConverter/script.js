@@ -1,23 +1,25 @@
+```javascript
 function convertMarkdown() {
+
     let markdown = document.getElementById("markdown-input").value;
 
     markdown = markdown.replace(
-        /^\s*### (.+)$/gm,
+        /^### (.+)$/gm,
         "<h3>$1</h3>"
     );
 
     markdown = markdown.replace(
-        /^\s*## (.+)$/gm,
+        /^## (.+)$/gm,
         "<h2>$1</h2>"
     );
 
     markdown = markdown.replace(
-        /^\s*# (.+)$/gm,
+        /^# (.+)$/gm,
         "<h1>$1</h1>"
     );
 
     markdown = markdown.replace(
-        /^\s*> (.+)$/gm,
+        /^> (.+)$/gm,
         "<blockquote>$1</blockquote>"
     );
 
@@ -60,3 +62,4 @@ function convertMarkdown() {
 document
     .getElementById("markdown-input")
     .addEventListener("input", convertMarkdown);
+```
